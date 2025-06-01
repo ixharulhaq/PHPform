@@ -1,0 +1,43 @@
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+.form-step {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.step-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-indicator {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.step-indicator span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.step-indicator .inactive {
+    background: #dee2e6;
+    color: #6c757d;
+}
